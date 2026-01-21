@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Platforms Directory</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .platform-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 20px;
+            text-align: center;
+        }
+        .platform-card img {
+            max-width: 100px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .platform-card h3 {
+            margin: 10px 0;
+        }
+        .platform-card p {
+            font-size: 14px;
+            color: #666;
+        }
+        .platform-card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .platform-card a:hover {
+            background-color: #218838;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore Travel Platforms</h1>
+        <p>Find the best sites to book flights, hotels, and more!</p>
+    </header>
+    
+    <div class="container">
+        <div class="platform-card">
+            <img src="https://via.placeholder.com/100x100?text=Expedia" alt="Expedia Logo">
+            <h3>Expedia</h3>
+            <p>Book flights, hotels, car rentals, and vacation packages with ease.</p>
+            <a href="https://www.expedia.com" target="_blank">Visit Expedia</a>
+        </div>
+        
+        <div class="platform-card">
+            <img src="https://via.placeholder.com/100x100?text=Booking.com" alt="Booking.com Logo">
+            <h3>Booking.com</h3>
+            <p>Over 28 million accommodations worldwide, from budget to luxury.</p>
+            <a href="https://www.booking.com" target="_blank">Visit Booking.com</a>
+        </div>
+        
+        <div class="platform-card">
+            <img src="https://via.placeholder.com/100x100?text=Airbnb" alt="Airbnb Logo">
+            <h3>Airbnb</h3>
+            <p>Rent unique homes and experiences from local hosts around the globe.</p>
+            <a href="https://www.airbnb.com" target="_blank">Visit Airbnb</a>
+        </div>
+        
+        <div class="platform-card">
+            <img src="https://via.placeholder.com/100x100?text=Kayak" alt="Kayak Logo">
+            <h3>Kayak</h3>
+            <p>Search and compare flights, hotels, and cars from multiple providers.</p>
+            <a href="https://www.kayak.com" target="_blank">Visit Kayak</a>
+        </div>
+        
+        <div class="platform-card">
+            <img src="https://via.placeholder.com/100x100?text=TripAdvisor" alt="TripAdvisor Logo">
+            <h3>TripAdvisor</h3>
+            <p>Read reviews, book tours, and plan trips with user-generated content.</p>
+            <a href="https://www.tripadvisor.com" target="_blank">Visit TripAdvisor</a>
+        </div>
+        
+        <div class="platform-card">
+            <img src="https://via.placeholder.com/100x100?text=Agoda" alt="Agoda Logo">
+            <h3>Agoda</h3>
+            <p>Specializes in Asia-Pacific travel, with great deals on hotels and flights.</p>
+            <a href="https://www.agoda.com" target="_blank">Visit Agoda</a>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 Travel Platforms Directory. Built with HTML/CSS.</p>
+    </footer>
+</body>
+</html>
